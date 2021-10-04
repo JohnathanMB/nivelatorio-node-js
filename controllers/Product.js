@@ -10,10 +10,12 @@ let producto3 = new Product("003", "Yoger fachero facherito", 50000);
 let products = [producto1, producto2, producto3];
 
 function getProducts(req, res){
+
     res.status(200).send({products})
 }
 
 function getProduct(req, res){
+
     console.log('GET api/product');
     let productIdParam = req.params.productId;
     try{
@@ -31,6 +33,7 @@ function getProduct(req, res){
 }
 
 function saveProduct(req, res){
+
     console.log('POST api/product');
     let body= req.body;
     try{
@@ -52,6 +55,7 @@ function saveProduct(req, res){
 }
 
 function updateProduct(req, res){
+
     console.log('PUT api/product');
     let body= req.body;
     try{
@@ -79,6 +83,7 @@ function updateProduct(req, res){
 }
 
 function deleteProduct(req, res){
+    
     console.log('DELETE api/product');
     let body= req.body;
     try{
