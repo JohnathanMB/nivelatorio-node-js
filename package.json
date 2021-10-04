@@ -1,0 +1,26 @@
+{
+  "name": "nivelatorio-node",
+  "version": "1.0.0",
+  "description": "proyecto de prueba nivelatorio mintic",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnathanMB/nivelatorio-node-js.git"
+  },
+  "author": "Johnathan Monsalve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnathanMB/nivelatorio-node-js/issues"
+  },
+  "homepage": "https://github.com/JohnathanMB/nivelatorio-node-js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
