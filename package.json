@@ -12,7 +12,7 @@
     "url": "git+https://github.com/JohnathanMB/nivelatorio-node-js.git"
   },
   "author": "Johnathan Monsalve",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JohnathanMB/nivelatorio-node-js/issues"
   },
